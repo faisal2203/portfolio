@@ -341,7 +341,7 @@ button.faq-button:hover {
 }
 
 /* SCREEN VIEWPORT MEDIA QUERY */
-@media (max-width: 950px) {
+@media (max-width: 400px) {
 
   /* FRONT SECTION */
   #front-section {
