@@ -86,28 +86,42 @@ p {
 }
 
 /* PRICING SECTION */
-.p-section {
-  padding-bottom: 7%;
+
+.card {
+  box-shadow: -1px 5px 11px 7px rgba(153,147,147,0.67);
+-webkit-box-shadow: -1px 5px 11px 7px rgba(153,147,147,0.67);
+-moz-box-shadow: -1px 5px 11px 7px rgba(153,147,147,0.67);
 }
 
-.card-group {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+.container {
+  margin-left: 1.6% !important;
+  margin-right: 1.5% !important;
+  padding: 0 !important;
 }
 
-.card-top-header {
+.col {
+    padding-right: 0.7% !important;
+    padding-left: 0.7% !important;
+    padding-top: 0.7% !important;
+    padding-bottom: 0.7% !important;
+}
+
+.row {
+  width: 109% !important;
+}
+
+.card-head {
   text-align: center;
   background-color: #34b1eb;
   color: #ffffff;
   padding: 0.5rem 1.25rem 1rem 1.25rem;
 }
 
-.card-top-header-center {
+.card-head-middle {
   text-align: center;
   background-color: #ff8a73;
   color: #ffffff;
-  padding: 0 2rem 1rem 1rem;
+  padding: 0.5rem 1.25rem 1rem 1.25rem;
 }
 
 .h3-card {
@@ -118,54 +132,56 @@ p {
 }
 
 .p-card {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 2.2rem;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.8rem;
   letter-spacing: 1.2px;
 }
 
 .price-amount {
   text-align: center;
-  padding: 2rem 8.3rem;
+  padding: 1rem 8.3rem;
   color: #ff8a73;
-}
-
-.dollar {
-  top: 3px;
-  line-height: 1;
-  font-size: 2rem;
-  font-weight: 800;
 }
 
 .amount {
   line-height: .8;
-  font-size: 100px;
+  font-size: 6rem;
   font-weight: 800;
+  color: #ff8a73;
+}
+
+.sup-class {
+  font-size: 2rem;
+  top: -3rem;
+  right: 0.25rem;
 }
 
 .month {
-  font-size: 18px;
-  font-weight: 500;
-  width: 100%;
+  line-height: .8;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ff8a73;
+  padding-bottom: 7%;
 }
 
 .card-msg {
   text-align: center;
-  padding: 3rem 6rem;
+  padding: 3rem 2rem;
   color: #ff8a73;
 }
 
 .msg {
-  font-size: 26px;
+  font-size: 27px;
   font-weight: 700;
   width: 100%;
 }
 
 .card-text {
   font-size: 17px;
-  line-height: 2em;
+  line-height: 3.5em;
   font-weight: 350;
-  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 
@@ -180,12 +196,12 @@ p {
   margin: 5% 20% 0;
   border: 4px solid #ff8a73;
   color: #ff8a73;
-  width: 235px;
-  height: 60px;
-  padding: 10px 20px;
+  width: 250px;
+  height: 66px;
+  padding: 0 5%;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   cursor: pointer;
   border-radius: 50px 50px 50px 50px;
@@ -205,6 +221,7 @@ button.btn-card:hover {
   text-decoration: underline;
   margin: 22px 0px 0px 0px;
   text-align: center;
+  line-height: 1.75rem;
 }
 
 .amt {
@@ -220,7 +237,7 @@ a.amt:hover {
   font-family: "Helvetica", Lato;
   font-weight: 500;
   line-height: 1.7em;
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
   letter-spacing: -0.7px;
   margin: 24px 0px 0px 0px;
@@ -228,7 +245,7 @@ a.amt:hover {
 
 /* PAYMENT LOGO */
 .p-logo {
-  padding: 3% 4% 10% 3%;
+  padding: 5% 4% 10% 3%;
   ;
   text-align: center;
 }
@@ -341,7 +358,7 @@ button.faq-button:hover {
 }
 
 /* SCREEN VIEWPORT MEDIA QUERY */
-@media (max-width: 400px) {
+@media (max-width: 770px) {
 
   /* FRONT SECTION */
   #front-section {
@@ -374,6 +391,23 @@ button.faq-button:hover {
   }
 
   /* PRICING CARD */
+
+.card {
+  box-shadow: -4px -2px 24px 11px rgba(158,147,147,0.75);
+-webkit-box-shadow: -4px -2px 24px 11px rgba(158,147,147,0.75);
+-moz-box-shadow: -4px -2px 24px 11px rgba(158,147,147,0.75);
+}
+
+  .col {
+    margin-left: 13% !important;
+    margin-right: 13% !important;
+      padding-right: 0.7% !important;
+      padding-left: 0.7% !important;
+      padding-top: 3% !important;
+      padding-bottom: 3% !important;
+  }
+
+
   /* PAYMENT LOGO */
   .p-logo {
     padding-bottom: 25%;
