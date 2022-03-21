@@ -214,14 +214,19 @@ button.btn-card:hover {
 }
 
 .credits {
+  margin: 5% 0 0 0;
+}
+
+.credits-msg {
   color: #898989;
   font-family: "Lato", Lato;
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 200;
   text-decoration: underline;
-  margin: 22px 0px 0px 0px;
   text-align: center;
   line-height: 1.75rem;
+  padding-left: 4%;
+  padding-right: 5%;
 }
 
 .amt {
@@ -241,6 +246,8 @@ a.amt:hover {
   text-align: center;
   letter-spacing: -0.7px;
   margin: 24px 0px 0px 0px;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 /* PAYMENT LOGO */
