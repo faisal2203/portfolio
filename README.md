@@ -1,1 +1,1 @@
-# portfolio
+It is a project work which i was assigned to complete it as a task. In this i have used HTML, CSS and Bootstrap as techstacks for creating the frontend of the website. This site is also mobile friendly which i have made using media query of CSS. Hope you all liked it.
